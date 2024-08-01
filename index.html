@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A technical Python documentation which includes basic concepts of python.">
+    <title>Python Documentation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+
+</head>
+
+
+<body>
+    <main id="main-doc">
+        <nav id="navbar">
+            <header id="navbar-heading">
+                <h1>Python Documentation</h1>
+            </header>
+            <section id="navbar-links">
+                <a href="#Introduction" class="nav-link">Introduction</a>
+                <a href="#Scripting_Language" class="nav-link">Scripting Language</a>
+                <a href="#Python_Syntax" class="nav-link">Python Syntax</a>
+                <a href="#Variables" class="nav-link">Variables</a>
+                <a href="#Data_Types" class="nav-link">Data Types</a>
+                <a href="#Operators" class="nav-link">Operators</a>
+                <a href="#Conditionals" class="nav-link">Conditionals</a>
+                <a href="#Loops" class="nav-link">Loops</a>
+                <a href="#Lists" class="nav-link">Lists</a>
+                <a href="#Reference" class="nav-link">Reference</a>
+            </section>
+        </nav>
+        <div id="topic-sections">
+            <section id="Introduction" class="main-section">
+                <header>
+                    Introduction
+                </header>
+                <p>Python
+                    is a widely used general-purpose, high level programming language. It was created by Guido van
+                    Rossum in
+                    1991 and further developed by the Python Software Foundation. It was designed with an emphasis on
+                    code
+                    readability, and its syntax allows programmers to express their concepts in fewer lines of code.
+                    Python
+                    is a programming language that lets you work quickly and integrate systems more efficiently. </p>
+                <h3>What is Python?</h3>
+                <p class="double-indent">Python is a high-level, general-purpose, and very popular programming language.
+                    Python programming
+                    language (latest Python 3) is being used in web development, and Machine Learning applications,
+                    along
+                    with all cutting-edge technology in Software Industry. Python language is being used by almost all
+                    tech-giant companies like – Google, Amazon, Facebook, Instagram, Dropbox, Uber… etc.</p>
+                <h3>Reason for increasing popularity</h3>
+                <ul class="double-list-indent">
+                    <li>Emphasis on code readability, shorter codes, ease of writing.</li>
+                    <li>Programmers can express logical concepts in fewer lines of code in comparison to languages such
+                        as
+                        C++ or Java.</li>
+                    <li>Python supports multiple programming paradigms, like object-oriented, imperative and functional
+                        programming or procedural.</li>
+                    <li>There exists inbuilt functions for almost all of the frequently used concepts.</li>
+                    <li>Philosophy is “Simplicity is the best”.</li>
+                </ul>
+            </section>
+
+            <section id="Scripting_Language" class="main-section">
+                <header>
+                    Scripting Language
+                </header>
+                <p>Python is scripting, general-purpose, high-level, and interpreted programming language. It also
+                    provides
+                    the object-oriented programming approach. </p>
+                <h3>What is a scripting language?</h3>
+                <p class="double-indent">The scripting language is referred to perform the task based on automating a
+                    repeated task. It
+                    includes
+                    same types of steps while implementing the procedure or program. It reduces time and cuts the costs
+                    further.</p>
+                <p> The scripting languages are interpreted language instead of a compiled language. The name
+                    of
+                    few scripting languages is Perl, Visual Basic, JavaScript, Python, Unix Shell Scripts, ECMAScript,
+                    and
+                    Bash etc.</p>
+            </section>
+
+            <section id="Python_Syntax" class="main-section">
+                <header>
+                    Python Syntax
+                </header>
+                <p>Python is known for its clean and readable syntax, which makes it an excellent language for
+                    beginners,
+                    but also powerful enough for advanced applications.Python syntax refers to the set of rules that
+                    defines
+                    the combinations of symbols that are considered to be correctly structured programs in the Python
+                    language. These rules make sure that programs written in Python should be structured and formatted,
+                    ensuring that the Python interpreter can understand and execute them correctly.</p>
+                <h3>Running basic Python program - Hello World!</h3>
+                <p class="double-indent">This is the simple printing of hello world in Python.</p>
+                <div class=" box box-indent">
+                    <Pre><code>print(&quot;Hello, World!&quot;)</code></Pre>
+                </div>
+                <p class="double-indent">Output: </p>
+                <div class=" box box-indent">
+                    <pre>Hello, World!</pre>
+                </div>
+                <h3>Indentation in Pyhton</h3>
+                <p class="double-indent">Python Indentation refers to the use of whitespace (spaces or tabs) at the
+                    beginning of a line of
+                    code in
+                    Python. It is used to define the code blocks. Indentation is crucial in Python because, unlike many
+                    other programming languages that use braces “{}” to define blocks, Python uses indentation. It
+                    improves
+                    the readability of Python code, but on other hand it became difficult to rectify indentation errors.
+                    Even one extra or less space can leads to identation error.</p>
+                <p class="double-indent">Here is an example of indentation in Python:</p> 
+                <div class="box box-indent">
+<pre><code>j = 1 
+while(j<= 5): 
+     print(j) 
+     j = j + 1
+</code></pre>
+                </div>
+                <p class="double-indent">Output:</p>
+                <div class="box box-indent">
+<pre>
+1
+2
+3
+4
+5
+</pre>
+                </div>
+            </section>
+
+
+
+            <section id="Variables" class="main-section">
+                <header>
+                    Variables
+                </header>
+                <p>Python Variable is containers that store values. Python is not “statically typed”. We do not need to
+                    declare variables before using them or declare their type. A variable is created the moment we first
+                    assign a value to it. A Python variable is a name given to a memory location. It is the basic unit
+                    of
+                    storage in a program.</p>
+                <p>Example of Variable in Python:</p>
+                <div class="box box-indent">
+<pre><code>Var = "Geeksforgeeks"
+print(Var)
+</code></pre>
+                </div>
+                <p>Output:</p>
+                <div class="box box-indent">
+                    Geeksforgeeks
+                </div>
+                <h3>Naming rules for Variables in Pyhton</h3>
+                <ul class="double-list-indent">
+                    <li>A Python variable name must start with a letter or the underscore character.</li>
+                    <li>A Python variable name cannot start with a number.</li>
+                    <li>A Python variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and
+                        _ ).
+                    </li>
+                    <li>Variable in Python names are case-sensitive (name, Name, and NAME are three different
+                        variables).
+                    </li>
+                    <li>The reserved words(keywords) in Python cannot be used to name the variable in Python.</li>
+                </ul>
+            </section>
+
+            <section id="Data_Types" class="main-section">
+                <header>
+                    Data Types
+                </header>
+                <p>Python Data types are the classification or categorization of data items. It represents the kind of
+                    value that tells what operations can be performed on a particular data.</p>
+                <p>Since everything is an
+                    object in Python programming, Python data types are classes and variables are instances (objects) of
+                    these classes.</p>
+                <p> The following are the standard or built-in data types in Python:</p>
+                <ul>
+                    <li>Numeric</li>
+                    <li>Sequence Type</li>
+                    <li>Boolean</li>
+                    <li>Set</li>
+                    <li>Dictionary</li>
+                    <li>Binary Types</li>
+                </ul>
+            </section>
+
+            <section id="Operators" class="main-section">
+                <header>
+                    Operators</header>
+                <p>In mathematics and computer programming, an operator is a character that represents a specific
+                    mathematical or logical action or process.</p>
+                <p>In Python programming, Operators in general are used
+                    to perform operations on values and variables. These are standard symbols used for logical and
+                    arithmetic operations.</p>
+                <h3>Types of operators in Python</h3>
+                <ul class="double-list-indent">
+                    <li>Arithmetic Operators</li>
+                    <li>Comparison Operators</li>
+                    <li>Logical Operators</li>
+                    <li>Bitwise Operators</li>
+                    <li>Assignment Operators</li>
+                    <li>Identity Operators and Membership Operators
+                    </li>
+                </ul>
+
+            </section>
+
+            <section id="Conditionals" class="main-section">
+                <header>
+                    Conditionals
+                </header>
+                <p>Conditional Statements are statements in Python that provide a choice for the control flow based on a
+                    condition. It means that the control flow of the Python program will be decided based on the outcome
+                    of the condition.</p>
+                <h3>if-else Statement</h3>
+                <p class="double-indent">Syntax of if-else statement:</p>
+                <div class="box box-indent">
+<pre>
+if (condition):
+# Executes this block if
+# condition is true
+else:
+# Executes this block if
+# condition is false
+</pre>
+                </div>
+                <p class="double-indent">An example of if-else:</p>
+                <div class="box box-indent">
+                    
+<pre><code># if..else statement example 
+x = 3
+if x == 4: 
+    print("Yes") 
+else: 
+    print("No") 
+</code></pre>
+                </div>
+                <p class="double-indent">Output:</p>
+                <div class="box box-indent">
+                    
+<pre>No</pre>
+                </div>
+            </section>
+
+            <section id="Loops" class="main-section">
+                <header>
+                    Loops
+                </header>
+                <p>In computer programming, a loop is a sequence of instruction s that is continually repeated until a
+                    certain condition is reached. Typically, a certain process is done, such as getting an item of data
+                    and changing it, and then some condition is checked such as whether a counter has reached a
+                    prescribed number.</p>
+                <h3>for loop in Python</h3>
+                <p class="double-indent">For loops are used for sequential traversal. For example: traversing a list or
+                    string or array etc.
+                    Let us learn how to use for loops in Python for sequential traversals with examples.</p>
+
+                <p class="double-indent">Syntax of for loop:</p>
+                <div class="box box-indent">
+<pre>
+for iterator_var in sequence:
+statements(s)
+</pre>
+                </div>
+                <h3>while loop in Python</h3>
+                <p class="double-indent">
+                    In Python, a while loop is used to execute a block of statements repeatedly until a given condition
+                    is satisfied. When the condition becomes false, the line immediately after the loop in the program
+                    is executed.
+                </p>
+                <p class="double-indent ">Syntax of while loop:</p>
+                <div class="box box-indent">
+<pre>
+while expression:
+statement(s)
+</pre>
+                </div>
+            </section>
+
+            <section id="Lists" class="main-section">
+                <header>
+                    Lists
+                </header>
+                <p>Python Lists are just like dynamically sized arrays, declared in other languages (vector in C++ and
+                    ArrayList in Java). In simple language, a list is a collection of things, enclosed in [ ] and
+                    separated by commas. "The list is a sequence data type which is used to store the collection of
+                    data." </p>
+                <p>Example of list:</p>
+                <div class="codeBox box box-indent">
+                    
+<pre><code>Var = ["Geeks", "for", "Geeks"]
+print(Var)
+</code></pre>
+                </div>
+                <p>Output:</p>
+                <div class=" box box-indent">
+                <pre>["Geeks", "for", "Geeks"]</pre>
+                </div>
+            </section>
+
+
+
+            <section id="Reference" class="main-section">
+                <header>
+                    Reference
+                </header>
+                <p>All the documentation in this page is taken from:</p>
+                <ul>
+                    <li> <a href="https://www.geeksforgeeks.org/python-programming-language-tutorial/">GeeksforGeeks</a>
+                    </li>
+                </ul>
+              
+            </section>
+        </div>
+    </main>
+</body>
+
+</html>
